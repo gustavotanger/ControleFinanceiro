@@ -48,11 +48,11 @@
                             </div>
                             <div class="form-group input-group">
                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input type="password" class="form-control" placeholder="Digite uma Senha aqui..." name="senha" id="senha" maxlength="8"/>
+                                <input type="password" class="form-control" placeholder="Digite uma Senha aqui..." name="senha" id="senha" maxlength="72"/>
                             </div>
                             <div class="form-group input-group">
                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input type="password" class="form-control" placeholder="Repita sua Senha aqui..." name="repSenha" id="repSenha" maxlength="8"/>
+                                <input type="password" class="form-control" placeholder="Repita sua Senha aqui..." name="repSenha" id="repSenha" maxlength="72"/>
                             </div>
                             <button type="submit" class="btn btn-success" name="btnCadastrar" onclick="return ValidarCadastro();">Cadastrar</button>
                         </form>
