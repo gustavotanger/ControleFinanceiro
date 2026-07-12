@@ -57,7 +57,7 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label>Digite a Nova Senha:</label>
-                            <input type="password" class="form-control" placeholder="Digite seu E-mail aqui..." name="senha" id="senha" value="<?= isset($senha) ? $senha : '' ?>"/>
+                            <input type="password" class="form-control" placeholder="Digite sua nova senha aqui..." name="senha" id="senha" value="<?= isset($senha) ? $senha : '' ?>"/>
                         </div>
                     </div>                
                     <div style="text-align: center;">
