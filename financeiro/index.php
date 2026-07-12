@@ -42,7 +42,7 @@
                             </div>
                             <div class="form-group input-group">
                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input type="password" class="form-control" placeholder="Digite sua Senha aqui..." name="senha" id="senha" maxlength="8"/>
+                                <input type="password" class="form-control" placeholder="Digite sua Senha aqui..." name="senha" id="senha" maxlength="72"/>
                             </div>
                             <button type="submit" class="btn btn-primary" name="btnAcessar" onclick="return ValidarLogin();">Acessar</button>
                         </form>
