@@ -12,8 +12,8 @@ function ValidarLogin(){
         return false;
     }
 
-    if($("#senha").val().trim().length < 6 || $("#senha").val().trim().length > 8){
-        alert("A SENHA deve conter entre 6 e 8 caracteres!");
+    if($("#senha").val().trim().length < 6 || $("#senha").val().trim().length > 72){
+        alert("A SENHA deve conter entre 6 e 72 caracteres!");
         $("#senha").focus();
         return false;
     }    
@@ -45,8 +45,8 @@ function ValidarCadastro(){
         return false;
     }    
 
-    if($("#senha").val().trim().length < 6 || $("#senha").val().trim().length > 8){
-        alert("A SENHA deve conter entre 6 e 8 caracteres!");
+    if($("#senha").val().trim().length < 6 || $("#senha").val().trim().length > 72){
+        alert("A SENHA deve conter entre 6 e 72 caracteres!");
         $("#senha").focus();
         return false;
     } 
@@ -78,8 +78,8 @@ function ValidarMeusDados(){
         return false;
     }
 
-    if($("#senha").val().trim().length < 6 || $("#senha").val().trim().length > 8){
-        alert("A SENHA deve conter entre 6 e 8 caracteres!");
+    if($("#senha").val().trim().length < 6 || $("#senha").val().trim().length > 72){
+        alert("A SENHA deve conter entre 6 e 72 caracteres!");
         $("#senha").focus();
         return false;
     }       
