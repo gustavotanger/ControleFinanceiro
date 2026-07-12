@@ -1,0 +1,15 @@
+# Ambiente
+.env
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencias (caso o projeto passe a usar Composer)
+/vendor/
+composer.lock
